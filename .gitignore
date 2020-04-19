@@ -13,12 +13,16 @@
 *.ilk
 *.lastbuildstate
 vc100.pdb
+*.pdb
 ipch
 *.sdf
 *.opensdf
 *.idb
 *.vcxproj
+*.vcxproj.*
 *.sln
+*.vpc.*
+.vs/
 
 # OSX/Linux build products
 *.mak
@@ -35,6 +39,9 @@ client.lib
 server.pdb
 server.dll
 server.lib
+mathlib.lib/
+tier1.lib/
+vgui_controls.lib/
 
 client.so
 client.so.dbg
